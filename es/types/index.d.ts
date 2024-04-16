@@ -1,0 +1,11 @@
+export declare const TOKEN = "h-token";
+export declare const CROP_ID = "crop-id";
+export declare const LOGIN_TYPE = "login-type";
+export declare const USER_INFO = "user-info";
+export declare const USER_DATA = "kht-user-info";
+export declare const MENU_DATA = "menu-data";
+export declare const CURRENT_APP_NAME = "current-app-name";
+export declare const CURRENT_APP_PATH = "current-app-path";
+export declare const CURRENT_MODULE = "current-module";
+export declare const PERMISSION = "permission";
+export declare const COMPANY_CODE = "company-code";

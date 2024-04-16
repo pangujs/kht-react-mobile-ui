@@ -1,0 +1,114 @@
+.containerInfo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.containerInfo .headerInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 89px;
+}
+.containerInfo .headerInfo .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 89px;
+  font-size: 24px;
+}
+.containerInfo .headerInfo .title {
+  flex: 1;
+  color: #333333;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+.containerInfo .headerInfo .right {
+  padding: 0 10px;
+  color: #0178ff;
+  font-size: 24px;
+}
+.containerInfo .title {
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding-left: 40px;
+  color: #999;
+  font-size: 26px;
+}
+.containerInfo .list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 100%;
+  max-height: calc(100% - 120px);
+  padding: 30px 40px;
+  padding-right: 0;
+  overflow-y: auto;
+}
+.containerInfo .list .itemDet {
+  position: relative;
+  max-width: 300px;
+  height: auto;
+  min-height: 60px;
+  margin-right: 36px;
+  margin-bottom: 50px;
+}
+.containerInfo .list .itemDet .name {
+  box-sizing: border-box;
+  width: fit-content;
+  padding: 0 14px;
+  color: #0178ff;
+  font-size: 28px;
+  line-height: 60px;
+  text-align: center;
+  border: 1px solid #0178ff;
+  border-radius: 10px;
+}
+.containerInfo .list .itemDet .close {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 40px;
+  height: 40px;
+}
+.containerInfo .list .item {
+  position: relative;
+  width: 80px;
+  margin-right: 36px;
+  margin-bottom: 50px;
+}
+.containerInfo .list .item .image {
+  width: 77px;
+  height: 77px;
+  border-radius: 10px;
+}
+.containerInfo .list .item .name {
+  width: 100%;
+  margin-top: 17px;
+  color: #666;
+  font-size: 24px;
+  text-align: center;
+}
+.containerInfo .list .item .close {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 40px;
+  height: 40px;
+}
+.containerInfo .list .itemAll .all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 77px;
+  height: 77px;
+  margin-right: 18px;
+  color: #fff;
+  font-size: 24px;
+  background: #0178ff;
+  border-radius: 8px;
+  opacity: 0.6;
+}

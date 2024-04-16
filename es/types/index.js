@@ -1,0 +1,12 @@
+// export const TOKEN = 'kht-user-token'
+export var TOKEN = 'h-token';
+export var CROP_ID = 'crop-id'; //企业ID
+export var LOGIN_TYPE = 'login-type'; //登录入口类型
+export var USER_INFO = 'user-info'; //用户信息
+export var USER_DATA = 'kht-user-info'; //用户信息
+export var MENU_DATA = 'menu-data'; //菜单数据
+export var CURRENT_APP_NAME = 'current-app-name'; //当前应用模块名称
+export var CURRENT_APP_PATH = 'current-app-path'; //当前应用名称前缀
+export var CURRENT_MODULE = 'current-module'; //当前应用模块名称
+export var PERMISSION = 'permission'; //权限
+export var COMPANY_CODE = 'company-code'; //企业code

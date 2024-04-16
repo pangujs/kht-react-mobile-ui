@@ -1,0 +1,70 @@
+.containerInfo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.containerInfo .headerInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+.containerInfo .headerInfo .left,
+.containerInfo .headerInfo .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  color: #bbbbbb;
+  font-size: 30px;
+}
+.containerInfo .headerInfo .right {
+  color: #0178ff;
+}
+.containerInfo .list {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 0 21px;
+  overflow-y: auto;
+}
+.containerInfo .list .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  color: #333333;
+  font-size: 30px;
+}
+.containerInfo .list .item.active {
+  color: #0178ff;
+}
+.dateInfo {
+  display: flex;
+  flex-direction: row;
+  width: 420px;
+  border: 1px solid var(--adm-color-primary);
+  border-radius: 6px;
+}
+.dateInfo .dateItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 210px;
+  height: 60px;
+  padding-left: 20px;
+}
+.dateInfo .dateItem .time {
+  color: var(--adm-color-primary);
+  font-size: 22px;
+}
+.dateInfo .dateItemActive {
+  background: var(--adm-color-primary);
+}
+.dateInfo .dateItemActive .time {
+  color: #fff;
+}

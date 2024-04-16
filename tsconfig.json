@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "types": ["jest", "node"],
+    "strict": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "noImplicitAny": false,
+    "typeRoots": ["./typings"],
+    "baseUrl": "./",
+    "paths": {
+      // "@": ["src"],
+      "@/*": ["src/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@src/*": ["src/components/*"],
+      "@utils/*": ["src/utils/*"],
+      "@assets/*": ["src/assets/*"],
+      "@request/*": ["src/request/*"],
+      "@apis/*": ["src/apis/*"]
+    }
+  },
+  "exclude": ["**/**/*.md"]
+}

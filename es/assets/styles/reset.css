@@ -1,0 +1,63 @@
+@charset 'utf-8';
+/*这些元素都建议重新初始化*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+tr,
+td,
+th,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+br,
+img,
+table,
+input,
+form,
+a,
+p,
+textarea {
+  margin: 0;
+  padding: 0;
+  font-family: 'Microsoft Yahei', 'Helvetica Neue', helvetica, segoe ui, arial, roboto, 'PingFang SC', 'miui', 'Hiragino Sans GB', sans-serif !important;
+}
+/*去掉列表默认排列*/
+ul,
+ol,
+li {
+  list-style: none;
+}
+/*去掉底部横线*/
+/*把a元素更改设置成块级元素，这个根据实际情况决定要不要*/
+a {
+  display: block;
+  text-decoration: none;
+}
+/*img标签要清除border。*/
+/*display设为block设置为块级元素，默认为display:inline;
+存在下边线多出4px状况,所以一般设为block*/
+img {
+  display: block;
+  border: 0;
+}
+/*清除浮动破坏带来的塌陷问题*/
+/*清除浮动的兼容IE*/
+.clearfloat {
+  zoom: 1;
+}
+.clearfloat:after {
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  content: '';
+}
